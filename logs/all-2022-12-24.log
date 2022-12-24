@@ -66,3 +66,72 @@ TypeError: login() missing 1 required positional argument: '_'
 [2022-12-24 18:05:23,122] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
 [2022-12-24 18:05:23,129] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
 [2022-12-24 18:05:23,129] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2022-12-24 18:07:14,993] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\wxcloudrun\settings.py changed, reloading.
+[2022-12-24 18:07:15,457] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 18:07:18,196] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 3287
+[2022-12-24 18:29:53,070] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 3287
+[2022-12-24 18:29:53,103] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[2022-12-24 18:29:53,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2022-12-24 18:29:53,180] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2022-12-24 18:29:53,181] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[2022-12-24 18:29:53,184] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[2022-12-24 18:29:53,189] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2022-12-24 18:29:53,194] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2022-12-24 18:29:53,194] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2022-12-24 18:29:53,202] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-24 18:29:53,203] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 59206)
+
+[2022-12-24 18:29:55,547] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/auth/user/add/ HTTP/1.1" 200 6845
+[2022-12-24 18:29:55,576] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+[2022-12-24 18:29:55,590] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2022-12-24 18:29:55,593] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+[2022-12-24 18:29:55,598] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+[2022-12-24 18:29:55,600] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[2022-12-24 18:29:55,601] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[2022-12-24 18:29:55,602] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[2022-12-24 18:29:55,603] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[2022-12-24 18:29:55,604] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[2022-12-24 18:29:55,606] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[2022-12-24 18:29:55,607] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[2022-12-24 18:29:55,608] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[2022-12-24 18:29:55,887] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 18:29:55,947] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-24 18:29:55,947] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 59208)
+
+[2022-12-24 18:30:18,051] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/auth/user/add/ HTTP/1.1" 200 7014
+[2022-12-24 18:30:18,410] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 18:30:31,335] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/auth/user/add/ HTTP/1.1" 200 7010
+[2022-12-24 18:30:31,683] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 18:30:36,163] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/auth/user/ HTTP/1.1" 200 7837
+[2022-12-24 18:30:36,224] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2022-12-24 18:30:36,225] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2022-12-24 18:30:36,226] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+[2022-12-24 18:30:36,452] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 18:30:36,470] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2022-12-24 18:30:36,470] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2022-12-24 18:30:41,532] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/auth/user/add/ HTTP/1.1" 200 6845
+[2022-12-24 18:30:41,816] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 18:30:52,567] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/auth/user/add/ HTTP/1.1" 200 7035
+[2022-12-24 18:30:52,910] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 18:31:12,358] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[2022-12-24 18:31:12,950] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/auth/user/2/change/ HTTP/1.1" 200 15323
+[2022-12-24 18:31:13,044] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360
+[2022-12-24 18:31:13,044] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+[2022-12-24 18:31:13,046] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+[2022-12-24 18:31:13,047] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[2022-12-24 18:31:13,357] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 18:31:13,389] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[2022-12-24 18:31:13,390] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[2022-12-24 18:31:13,393] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[2022-12-24 18:31:13,393] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[2022-12-24 18:31:13,393] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[2022-12-24 18:31:20,247] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/auth/user/ HTTP/1.1" 200 8223
+[2022-12-24 18:31:20,274] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[2022-12-24 18:31:20,531] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 18:32:55,256] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/auth/user/ HTTP/1.1" 200 8223
+[2022-12-24 18:32:55,303] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 59209)
+
+[2022-12-24 18:32:55,588] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 18:32:55,626] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-24 18:32:55,627] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 59214)
+
