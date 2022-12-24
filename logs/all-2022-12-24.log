@@ -210,3 +210,29 @@ TypeError: login() missing 1 required positional argument: '_'
 [2022-12-24 21:09:26,163] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
 [2022-12-24 21:09:29,062] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/article/add/ HTTP/1.1" 200 11022
 [2022-12-24 21:09:29,402] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:19:51,410] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/article/ HTTP/1.1" 200 5492
+[2022-12-24 21:19:51,750] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:19:51,767] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-24 21:19:51,768] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49821)
+
+[2022-12-24 21:19:52,522] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/category/ HTTP/1.1" 200 5519
+[2022-12-24 21:19:52,866] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:19:53,716] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/tag/ HTTP/1.1" 200 5479
+[2022-12-24 21:19:53,979] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:19:54,029] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-24 21:19:54,029] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49825)
+
+[2022-12-24 21:19:58,254] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/category/add/ HTTP/1.1" 200 7794
+[2022-12-24 21:19:58,553] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:20:10,567] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/blog/category/add/ HTTP/1.1" 200 7955
+[2022-12-24 21:20:10,876] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:20:10,935] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-24 21:20:10,936] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49847)
+
+[2022-12-24 21:20:16,436] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4542
+[2022-12-24 21:20:16,752] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:20:16,782] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-24 21:20:16,782] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49854)
+
+[2022-12-24 21:20:54,029] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\blog\models.py changed, reloading.
+[2022-12-24 21:20:54,447] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
