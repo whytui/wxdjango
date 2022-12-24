@@ -24,6 +24,6 @@ urlpatterns = (
 
     # 获取主页
     url(r'(/)?$', views.index),
-    path('login', views.login),
+    path('login/', views.login),
 
 )
