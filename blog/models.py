@@ -6,7 +6,6 @@ from django.db import models
 class Category(models.Model):
     name = models.CharField('文章分类', max_length=100)
     index = models.IntegerField(default=999, verbose_name="分类排序")
-    parent = models.ForeignKey('self', on_delete=models.CASCADE,blank=True)
     def __str__(self):
         return self.name
 
