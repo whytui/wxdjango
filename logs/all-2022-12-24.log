@@ -135,3 +135,9 @@ TypeError: login() missing 1 required positional argument: '_'
 [2022-12-24 18:32:55,626] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
 [2022-12-24 18:32:55,627] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 59214)
 
+[2022-12-24 20:26:07,037] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\wxcloudrun\settings.py changed, reloading.
+[2022-12-24 20:26:07,455] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 20:28:27,666] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\blog\models.py changed, reloading.
+[2022-12-24 20:28:28,065] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 20:29:04,773] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\blog\models.py changed, reloading.
+[2022-12-24 20:29:05,164] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
