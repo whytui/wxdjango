@@ -494,3 +494,45 @@ django.db.utils.IntegrityError: (1048, "Column 'parent_id' cannot be null")
 [2022-12-24 21:21:51,400] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /admin/blog/category/add/ HTTP/1.1" 500 256840
 [2022-12-24 21:22:53,385] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\blog\models.py changed, reloading.
 [2022-12-24 21:22:53,797] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 21:23:16,574] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/blog/category/add/ HTTP/1.1" 302 0
+[2022-12-24 21:23:16,967] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/category/ HTTP/1.1" 200 6889
+[2022-12-24 21:23:17,278] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:23:17,289] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[2022-12-24 21:23:17,367] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 50078)
+
+[2022-12-24 21:23:17,368] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 50083)
+
+[2022-12-24 21:23:19,892] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/category/1/change/ HTTP/1.1" 200 6950
+[2022-12-24 21:23:20,295] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:23:23,744] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/blog/category/1/change/ HTTP/1.1" 302 0
+[2022-12-24 21:23:24,091] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/category/add/ HTTP/1.1" 200 6943
+[2022-12-24 21:23:24,462] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:23:34,180] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/blog/category/add/ HTTP/1.1" 302 0
+[2022-12-24 21:23:34,514] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/category/ HTTP/1.1" 200 7102
+[2022-12-24 21:23:34,831] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:23:37,303] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/article/ HTTP/1.1" 200 5492
+[2022-12-24 21:23:37,623] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:23:39,655] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/article/add/ HTTP/1.1" 200 11108
+[2022-12-24 21:23:39,944] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:24:18,072] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/tag/add/?_to_field=id&_popup=1 HTTP/1.1" 200 2921
+[2022-12-24 21:24:18,397] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:24:18,428] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-24 21:24:18,428] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 50087)
+
+[2022-12-24 21:24:23,459] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/blog/tag/add/?_to_field=id&_popup=1 HTTP/1.1" 200 328
+[2022-12-24 21:24:23,492] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+[2022-12-24 21:24:26,157] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/blog/article/add/ HTTP/1.1" 302 0
+[2022-12-24 21:24:26,525] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/article/ HTTP/1.1" 200 9470
+[2022-12-24 21:24:26,809] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:24:44,405] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/article/ HTTP/1.1" 200 9261
+[2022-12-24 21:24:44,730] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:28:02,319] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/article/ HTTP/1.1" 200 9261
+[2022-12-24 21:28:02,587] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:28:02,599] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-24 21:28:02,600] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 50357)
+
+[2022-12-24 21:28:31,365] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/article/ HTTP/1.1" 200 9261
+[2022-12-24 21:28:31,622] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:28:31,659] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-24 21:28:31,660] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 50385)
+
