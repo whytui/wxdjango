@@ -536,3 +536,6 @@ django.db.utils.IntegrityError: (1048, "Column 'parent_id' cannot be null")
 [2022-12-24 21:28:31,659] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
 [2022-12-24 21:28:31,660] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 50385)
 
+[2022-12-24 21:31:52,608] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 21:32:40,470] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\blog\models.py changed, reloading.
+[2022-12-24 21:32:40,874] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
