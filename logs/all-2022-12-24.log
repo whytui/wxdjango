@@ -141,3 +141,63 @@ TypeError: login() missing 1 required positional argument: '_'
 [2022-12-24 20:28:28,065] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
 [2022-12-24 20:29:04,773] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\blog\models.py changed, reloading.
 [2022-12-24 20:29:05,164] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 21:00:39,249] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 21:00:42,542] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 31
+[2022-12-24 21:00:42,612] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-24 21:00:42,613] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 65268)
+
+[2022-12-24 21:00:47,355] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 5329
+[2022-12-24 21:00:47,388] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2022-12-24 21:00:47,390] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[2022-12-24 21:00:47,465] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[2022-12-24 21:00:47,467] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[2022-12-24 21:00:47,468] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2022-12-24 21:00:47,476] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2022-12-24 21:00:47,483] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2022-12-24 21:00:47,486] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2022-12-24 21:00:47,487] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[2022-12-24 21:00:47,496] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2022-12-24 21:00:47,496] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2022-12-24 21:00:47,496] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2022-12-24 21:00:52,501] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/category/ HTTP/1.1" 200 5519
+[2022-12-24 21:00:52,530] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+[2022-12-24 21:00:52,540] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2022-12-24 21:00:52,540] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2022-12-24 21:00:52,540] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2022-12-24 21:00:52,541] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2022-12-24 21:00:52,541] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2022-12-24 21:00:52,543] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2022-12-24 21:00:52,543] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2022-12-24 21:00:52,544] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2022-12-24 21:00:52,784] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:00:52,794] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2022-12-24 21:00:55,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/article/ HTTP/1.1" 200 5492
+[2022-12-24 21:00:56,136] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:00:57,727] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/article/add/ HTTP/1.1" 200 11006
+[2022-12-24 21:00:57,761] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+[2022-12-24 21:00:57,765] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[2022-12-24 21:00:57,765] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[2022-12-24 21:00:57,773] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+[2022-12-24 21:00:58,034] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:03:27,348] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\blog\models.py changed, reloading.
+[2022-12-24 21:03:27,785] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 21:04:11,656] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\blog\admin.py changed, reloading.
+[2022-12-24 21:04:12,105] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 21:04:43,690] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\blog\admin.py changed, reloading.
+[2022-12-24 21:04:44,087] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 21:05:42,699] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 21:05:54,971] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 21:07:32,997] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 21:07:38,914] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/article/add/ HTTP/1.1" 200 11006
+[2022-12-24 21:07:39,165] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:07:39,262] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-24 21:07:39,263] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49206)
+
+[2022-12-24 21:07:39,288] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49203)
+
+[2022-12-24 21:07:39,291] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49204)
+
+[2022-12-24 21:07:39,297] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 49205)
+
+[2022-12-24 21:08:40,309] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\blog\models.py changed, reloading.
+[2022-12-24 21:08:40,746] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
