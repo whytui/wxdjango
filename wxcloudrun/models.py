@@ -4,14 +4,15 @@ from django.db import models
 
 
 # Create your models here.
-class Counters(models.Model):
-    id = models.AutoField
-    count = models.IntegerField(max_length=11, default=0)
-    createdAt = models.DateTimeField(default=datetime.now(), )
-    updatedAt = models.DateTimeField(default=datetime.now(),)
-
+class user(models.Model):
+    username = models.CharField(max_length=100)
+    email = models.EmailField()
+    password = models.CharField(max_length=100)
+    date_joined = models.DateTimeField(default=datetime.now)
+    is_active = models.BooleanField(default=True)
+    is_staff = models.BooleanField(default=False)
+    is_superuser = models.BooleanField(default=False)
+    last_login = models.DateTimeField(default=datetime.now)
     def __str__(self):
-        return self.title
+        return self.username
 
-    class Meta:
-        db_table = 'Counters'  # 数据库表名
