@@ -201,3 +201,12 @@ TypeError: login() missing 1 required positional argument: '_'
 
 [2022-12-24 21:08:40,309] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\blog\models.py changed, reloading.
 [2022-12-24 21:08:40,746] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 21:09:07,696] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/tag/ HTTP/1.1" 200 5479
+[2022-12-24 21:09:18,262] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 21:09:18,992] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:09:22,832] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/tag/ HTTP/1.1" 200 5479
+[2022-12-24 21:09:23,154] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:09:25,859] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/article/ HTTP/1.1" 200 5492
+[2022-12-24 21:09:26,163] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+[2022-12-24 21:09:29,062] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/blog/article/add/ HTTP/1.1" 200 11022
+[2022-12-24 21:09:29,402] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 8398
