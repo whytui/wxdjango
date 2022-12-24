@@ -9,7 +9,7 @@ from django.shortcuts import render
 logger = logging.getLogger('log')
 
 
-def index(request, _):
+def index(request):
     """
     获取主页
 
@@ -18,11 +18,4 @@ def index(request, _):
 
     return render(request, 'index.html')
 
-def login(request, _):
-    """
-    登录
 
-    `` request `` 请求对象
-    """
-
-    return render(request, 'login.html')

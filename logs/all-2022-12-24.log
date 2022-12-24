@@ -1,0 +1,68 @@
+[2022-12-24 17:44:09,290] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 17:44:14,472] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 31
+[2022-12-24 17:44:14,532] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55674)
+
+[2022-12-24 17:44:19,021] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 200 31
+[2022-12-24 17:44:22,479] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 31
+[2022-12-24 17:45:16,587] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\wxcloudrun\urls.py changed, reloading.
+[2022-12-24 17:45:17,035] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 17:45:17,978] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /login/
+Traceback (most recent call last):
+  File "I:\python\PycharmProjects\wxdjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "I:\python\PycharmProjects\wxdjango\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: login() missing 1 required positional argument: '_'
+[2022-12-24 17:45:17,979] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /login/ HTTP/1.1" 500 64113
+[2022-12-24 17:45:38,365] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /login/
+Traceback (most recent call last):
+  File "I:\python\PycharmProjects\wxdjango\venv\Lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "I:\python\PycharmProjects\wxdjango\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: login() missing 1 required positional argument: '_'
+[2022-12-24 17:45:38,366] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /login/ HTTP/1.1" 500 63892
+[2022-12-24 17:45:38,529] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\wxcloudrun\views.py changed, reloading.
+[2022-12-24 17:45:38,945] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 17:45:39,408] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /login/ HTTP/1.1" 200 148
+[2022-12-24 17:46:40,022] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\wxcloudrun\views.py changed, reloading.
+[2022-12-24 17:46:40,439] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 17:50:02,767] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 17:50:23,180] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 17:51:45,872] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 17:52:05,622] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 17:52:33,103] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- I:\python\PycharmProjects\wxdjango\wxcloudrun\urls.py changed, reloading.
+[2022-12-24 17:52:33,527] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 17:53:16,920] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 17:53:56,574] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-24 17:53:59,430] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 31
+[2022-12-24 17:54:07,472] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /blog/ HTTP/1.1" 200 31
+[2022-12-24 17:54:11,556] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /blog/ HTTP/1.1" 200 31
+[2022-12-24 17:54:11,592] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-12-24 17:54:11,593] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2319
+[2022-12-24 17:54:19,293] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2022-12-24 17:54:19,308] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[2022-12-24 17:54:19,511] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[2022-12-24 17:54:19,516] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[2022-12-24 17:54:19,517] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[2022-12-24 17:54:19,518] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[2022-12-24 17:54:19,519] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[2022-12-24 17:54:19,523] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2022-12-24 17:54:19,550] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2022-12-24 17:54:19,550] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2022-12-24 17:54:22,408] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2376
+[2022-12-24 17:54:22,478] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2022-12-24 18:05:22,799] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-12-24 18:05:23,069] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 3327
+[2022-12-24 18:05:23,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2022-12-24 18:05:23,106] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[2022-12-24 18:05:23,107] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2022-12-24 18:05:23,108] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2022-12-24 18:05:23,118] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[2022-12-24 18:05:23,122] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2022-12-24 18:05:23,129] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2022-12-24 18:05:23,129] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
