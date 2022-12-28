@@ -71,7 +71,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django_demo',
         'USER': 'root',
-        'HOST': 'sh-cynosdbmysql-grp-6tfethx8.sql.tencentcdb.com',
+        'HOST': '#',
         'PORT': '22049',
         'PASSWORD': '9DaHjSSP',
         'OPTIONS': {'charset': 'utf8mb4'},
